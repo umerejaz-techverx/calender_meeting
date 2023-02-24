@@ -10,14 +10,15 @@
 
     Modify the input.csv file without changing the given format to test.
     
+
 #### Following is the format
     
         
-    Intial columns will be blocks  and the last column will requirments (store,school,gym,etc) for aprtment hunting
-    below
+    Below is the Sample input 
 
-    | block1                                        | block2                                        | req                         |
-    |-----------------------------------------------|-----------------------------------------------|-----------------------------|-
-    | {"gym": False,"school": False,"store": False} | {"gym": False,"school": False,"store": False} | ['gym','store','store']     |
-    |-----------------------------------------------|-----------------------------------------------|-----------------------------|-
-
+    | p1_slots                                 | p2_slots                               | p1_daily_bounds    | p2_daily_bounds   | meetingDuration   |
+    |------------------------------------------|----------------------------------------|--------------------|-------------------|-------------------|-
+    | [['10:00', '10:30'], ['12:00', '14:00']] | [['9:00', '10:30'],['11:00', '15:30']] | ['9:00', '20:00']  | ['9:00', '20:30'] | 30
+    |------------------------------------------|----------------------------------------|--------------------|-------------------|------------------|
+    
+    Sample is also available in input.csv
